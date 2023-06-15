@@ -1,0 +1,21 @@
+<view class="capsule">
+    <view class="capsule-btn"
+          hover-class="capsule-button-hover"
+          wx:if="{{mode === 'back'}}"
+          bind:tap="back">
+        <view class="icon icon-chevron-left"></view>
+    </view>
+    <view class="capsule-btn"
+          hover-class="capsule-button-hover"
+          wx:if="{{mode === 'home'}}"
+          bind:tap="home">
+        <view class="icon icon-house-door"></view>
+    </view>
+    <view class="capsule-line">
+    </view>
+    <view class="capsule-btn"
+          hover-class="capsule-button-hover"
+          bind:tap="more">
+        <view class="icon icon-grid"></view>
+    </view>
+</view>

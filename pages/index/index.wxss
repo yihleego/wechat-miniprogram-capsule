@@ -1,0 +1,9 @@
+@import "/icons.wxss";
+
+.app {
+    background-color: #fff;
+}
+
+.main {
+    height: 200vh;
+}

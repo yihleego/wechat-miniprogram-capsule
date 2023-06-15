@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "capsule",
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  "resizable": true,
+  "darkmode": false,
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

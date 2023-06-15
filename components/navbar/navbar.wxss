@@ -1,0 +1,27 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    font-size: 15px;
+    z-index: 999;
+}
+
+.navbar-template {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.navbar-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-title {
+    width: 100%;
+    font-size: 20px;
+    margin-right: 85px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+}

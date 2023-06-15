@@ -1,0 +1,38 @@
+.capsule {
+    width: 85px;
+    height: 30px;
+    margin-left: 1px;
+    border-radius: 50px;
+    box-shadow: 0 0 1px 0.2px #ebebeb;
+    background-color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.capsule-btn {
+    width: 42.5px;
+    height: 100%;
+}
+
+.capsule-button-hover {
+    background-color: #b8b8b8;
+}
+
+.capsule-line {
+    width: 0.1px;
+    height: 18px;
+    border-left: solid rgba(189, 196, 204, 1) thin;
+    display: inline-block;
+}
+
+.capsule .icon {
+    height: 100%;
+}
+
+.capsule .icon::before {
+    line-height: 30px;
+    font-size: 20px !important;
+}

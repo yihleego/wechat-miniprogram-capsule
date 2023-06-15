@@ -1,0 +1,12 @@
+<view class="navbar">
+    <view style="height: {{statusHeight}}px"/>
+    <view class="navbar-template" style="height: {{navbarHeight}}px">
+        <view class="navbar-content" style="height: {{capsuleHeight}}px">
+            <slot></slot>
+            <view class="navbar-title" wx:if="{{showTitle}}" style="opacity: {{1 - scrollTop / navbarHeight}}">
+                <text>Title</text>
+            </view>
+        </view>
+    </view>
+</view>
+<view style="height: {{totalHeight}}px"/>
