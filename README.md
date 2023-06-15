@@ -4,7 +4,7 @@
 
 ### Import components
 
-Import [navbar](components/navbar) and tail[capsule.js](components/capsule) components.
+Import [navbar](components/navbar) and [capsule](components/capsule) components.
 
 ```json
 {
