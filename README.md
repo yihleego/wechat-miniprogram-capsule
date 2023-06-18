@@ -31,6 +31,7 @@ Default style:
 
 ![capsule_default.png](docs/capsule_default.png)
 
+Home style:
 
 ```html
 <view>
@@ -76,6 +77,12 @@ Page({
 ```
 
 ![capsule_title_hidden.gif](docs/capsule_title_hidden.gif)
+
+### Icons
+
+[Bootstrap Icons](https://icons.getbootstrap.com/)
+
+![](https://icons.getbootstrap.com/assets/img/icons-hero.png)
 
 ## License
 
